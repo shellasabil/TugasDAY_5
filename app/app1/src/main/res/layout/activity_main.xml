@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="20dp"
+        android:hint="Tuliskan Nama" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextKodeBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNama"
+        android:layout_marginTop="10dp"
+        android:text="Kode Barang"
+        android:textSize="20dp"
+        android:hint="Masukkan kode barang" />
+
+    <EditText
+        android:id="@+id/editTextJumlahBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextKodeBarang"
+        android:layout_marginTop="10dp"
+        android:text="Jumlah Barang"
+        android:textSize="20dp"
+        android:hint="Masukkan Jumlah Barang" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextJumlahBarang"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/goldRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gold" />
+
+        <RadioButton
+            android:id="@+id/silverRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver" />
+
+        <RadioButton
+            android:id="@+id/regularRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regular" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Hitung Total" />
+
+</RelativeLayout>

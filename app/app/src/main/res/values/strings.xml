@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShellaQuiz1</string>
+    <string-array name="barang_array">
+        <item>IPX</item>
+        <item>AV4</item>
+        <item>LV3</item>
+    </string-array>
+</resources>

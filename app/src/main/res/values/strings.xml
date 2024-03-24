@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TugasDAY_5</string>
+    <string-array name="barang_array">
+        <item>IPX</item>
+        <item>AV4</item>
+        <item>LV3</item>
+    </string-array>
+    <string name="Nama">Tuliskan Nama</string>
+    <string name="KodeBarang">Masukkan Kode Barang</string>
+    <string name="JumlahBarang">Masukkan Jumlah Barang</string>
+    <string name="radiobtnGold">Emas</string>
+    <string name="radiobtnSilver">Perak</string>
+    <string name="radiobtnRegular">Biasa</string>
+    <string name="btnTotal">Hitung Total</string>
+    <string name="kodebrg">Kode Barang :</string>
+    <string name="namabrg">Nama Barang :</string>
+    <string name="harga">Harga :</string>
+    <string name="jumlahbrg">Jumlah Barang</string>
+    <string name="totalharga">Total Harga :</string>
+    <string name="diskharga">Diskon Harga :</string>
+    <string name="diskmem">Diskon Member :</string>
+    <string name="jmlbyr">Jumlah Bayar :</string>
+    <string name="btnbagibukti">Bagikan Bukti Transaksi</string>
+</resources>

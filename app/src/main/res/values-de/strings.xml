@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TugasDAY_5</string>
+    <string name="Nama">Namen schreiben</string>
+    <string name="KodeBarang">Geben Sie den Artikelcode ein</string>
+    <string name="JumlahBarang">Geben Sie die Anzahl der Artikel ein</string>
+    <string name="radiobtnGold">Gold</string>
+    <string name="radiobtnSilver">Silber</string>
+    <string name="btnTotal">"Zähle die Summe "</string>
+    <string name="kodebrg">Produktcode :</string>
+    <string name="namabrg">Artikelbezeichnung :</string>
+    <string name="harga">Preis :</string>
+    <string name="totalharga">Gesamtpreis :</string>
+    <string name="diskharga">Preisnachlass :</string>
+    <string name="diskmem">Mitgliederrabatt :</string>
+    <string name="jmlbyr">Zahlungsbetrag :</string>
+    <string name="btnbagibukti">Teilen Sie den Transaktionsnachweis :</string>
+    <string name="radiobtnRegular">Normal</string>
+</resources>
